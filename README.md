@@ -1,27 +1,56 @@
 <div align="center">
 
-🧠 CouncilLLM
-An Offline Multi-Model AI Council
+<img src="assets/councillm-logo.png" alt="CouncilLLM" width="120">
 
-Multiple models. Specialized roles. One local intelligence layer.
+<h1 align="center">CouncilLLM</h1>
+
+<p align="center">
+  <strong>An Offline Multi-Model AI Council</strong>
+</p>
+
+<p align="center">
+  Multiple models. Specialized roles. One local intelligence layer.
+</p>
 
 <br>
 
-<p> <img src="assets/councillm-demo.gif" alt="CouncilLLM Demo" width="900"> </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Local-6C63FF?style=flat-square" alt="Local AI">
+  <img src="https://img.shields.io/badge/Inference-Offline-00A67E?style=flat-square" alt="Offline Inference">
+  <img src="https://img.shields.io/badge/Architecture-Multi--Model-5B8DEF?style=flat-square" alt="Multi-Model">
+  <img src="https://img.shields.io/badge/Status-Active-F59E0B?style=flat-square" alt="Active">
+</p>
 
 <br>
 
-<p> <img src="https://img.shields.io/badge/AI-Local-6C63FF?style=for-the-badge" alt="Local AI"> <img src="https://img.shields.io/badge/Inference-Offline-00A67E?style=for-the-badge" alt="Offline Inference"> <img src="https://img.shields.io/badge/Architecture-Multi--Model-5B8DEF?style=for-the-badge" alt="Multi-Model"> <img src="https://img.shields.io/badge/Status-Active-F59E0B?style=for-the-badge" alt="Project Status"> </p>
+<p align="center">
+  <a href="#-features">Features</a>
+  &nbsp;·&nbsp;
+  <a href="#-architecture">Architecture</a>
+  &nbsp;·&nbsp;
+  <a href="#-the-model-council">Models</a>
+  &nbsp;·&nbsp;
+  <a href="#-installation">Installation</a>
+  &nbsp;·&nbsp;
+  <a href="#-roadmap">Roadmap</a>
+</p>
 
 <br>
 
-Features ·
-Architecture ·
-Models ·
-Installation ·
-Roadmap
+<!--
+IMAGE: Main CouncilLLM demonstration GIF
+
+UPLOAD YOUR GIF AS:
+assets/councillm-demo.gif
+
+Recommended:
+5–15 second loop showing the actual CouncilLLM interface in action.
+-->
+
+<img src="assets/councillm-demo.gif" alt="CouncilLLM Demo" width="900">
 
 </div>
+
 
 ---
 
