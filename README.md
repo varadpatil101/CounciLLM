@@ -1,14 +1,23 @@
-# 🧠 CouncilLLM
+# CouncilLLM
 
-### **An Offline Multi-Model AI Council**
+<p align="center">
+  <strong>An Offline Multi-Model AI Council</strong>
+</p>
 
-**Multiple models. Specialized roles. One local intelligence layer.**
+<p align="center">
+  <em>Multiple models. Different roles. One local council.</em>
+</p>
 
-[**Features**](#-features) ·
-[**Architecture**](#-architecture) ·
-[**Models**](#-the-model-council) ·
-[**Installation**](#-installation) ·
-[**Roadmap**](#-roadmap)
+<p align="center">
+  <img src="assets/councillm-demo.gif" alt="CouncilLLM Demo" width="900">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Local-blue" alt="Local AI">
+  <img src="https://img.shields.io/badge/Inference-Offline-green" alt="Offline Inference">
+  <img src="https://img.shields.io/badge/Architecture-Multi--Model-purple" alt="Multi-Model">
+  <img src="https://img.shields.io/badge/Status-Active-orange" alt="Project Status">
+</p>
 
 ---
 
