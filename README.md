@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 CouncilLLM
+# 🧠 CounciLLM
 
 ### An Offline Multi-Model AI Council
 
