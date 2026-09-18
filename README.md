@@ -1,25 +1,27 @@
 <div align="center">
-# CouncilLLM
+
+🧠 CouncilLLM
+An Offline Multi-Model AI Council
+
+Multiple models. Specialized roles. One local intelligence layer.
+
+<br>
+
+<p> <img src="assets/councillm-demo.gif" alt="CouncilLLM Demo" width="900"> </p>
+
+<br>
+
+<p> <img src="https://img.shields.io/badge/AI-Local-6C63FF?style=for-the-badge" alt="Local AI"> <img src="https://img.shields.io/badge/Inference-Offline-00A67E?style=for-the-badge" alt="Offline Inference"> <img src="https://img.shields.io/badge/Architecture-Multi--Model-5B8DEF?style=for-the-badge" alt="Multi-Model"> <img src="https://img.shields.io/badge/Status-Active-F59E0B?style=for-the-badge" alt="Project Status"> </p>
+
+<br>
+
+Features ·
+Architecture ·
+Models ·
+Installation ·
+Roadmap
+
 </div>
-
-<p align="center">
-  <strong>An Offline Multi-Model AI Council</strong>
-</p>
-
-<p align="center">
-  <em>Multiple models. Different roles. One local council.</em>
-</p>
-
-<p align="center">
-  <img src="assets/councillm-demo.gif" alt="CouncilLLM Demo" width="900">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AI-Local-blue" alt="Local AI">
-  <img src="https://img.shields.io/badge/Inference-Offline-green" alt="Offline Inference">
-  <img src="https://img.shields.io/badge/Architecture-Multi--Model-purple" alt="Multi-Model">
-  <img src="https://img.shields.io/badge/Status-Active-orange" alt="Project Status">
-</p>
 
 ---
 
