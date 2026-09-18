@@ -286,15 +286,6 @@ The outputs are processed within the council workflow.
 
 The resulting output is presented back to the user.
 
-<!--
-IMAGE: CouncilLLM end-to-end workflow
-REUSE: assets/03-request-flow.png
-This is the generated vertical workflow image already used in the Request Flow section.
--->
-<p align="center">
-  <img src="assets/03-request-flow.png" alt="CouncilLLM End-to-End Workflow" width="650">
-</p>
-
 ---
 
 # 🖼️ README Media Checklist
