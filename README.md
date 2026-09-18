@@ -1,4 +1,6 @@
+<div align="center">
 # CouncilLLM
+</div>
 
 <p align="center">
   <strong>An Offline Multi-Model AI Council</strong>
