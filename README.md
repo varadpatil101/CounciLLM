@@ -203,8 +203,45 @@ The important part is the separation of responsibilities. CounciLLM is not simpl
 
 The repository currently includes the documentation and visual assets used to describe CounciLLM. The implementation structure may continue to evolve during development.
 
+## Project Structure
+
 ```text
 CounciLLM/
+│
+├── councillm/
+│   │
+│   └── CounciLLM/
+│       │
+│       ├── backend/
+│       │   └── server.py
+│       │
+│       ├── frontend/
+│       │   ├── index.html
+│       │   └── auth.js
+│       │
+│       ├── config/
+│       │   └── council.json
+│       │
+│       ├── artifacts/
+│       │   ├── Generated documents
+│       │   ├── Code outputs
+│       │   └── Council responses
+│       │
+│       ├── attachments/
+│       │   └── User-provided files
+│       │
+│       ├── logs/
+│       │   └── Runtime logs
+│       │
+│       ├── work/
+│       │   └── Persistent application state
+│       │
+│       ├── Check-CounciLLM.ps1
+│       ├── Launch-CounciLLM.cmd
+│       ├── Launch-CounciLLM.ps1
+│       ├── Start-CounciLLM.ps1
+│       ├── Stop-CounciLLM.ps1
+│       └── Watch-CounciLLM.ps1
 │
 ├── assets/
 │   ├── 01-councillm-concept.png
@@ -213,15 +250,12 @@ CounciLLM/
 │   ├── 04-model-council.png
 │   ├── 05-offline-architecture.png
 │   ├── result-flow.png
-│   │
 │   └── screenshot/
 │       ├── main-interface.png
 │       └── model-interaction.png
 │
-├── README.md
-└── ...
+└── README.md
 ```
-
 ---
 
 # 🛠️ Technology
