@@ -1,2 +1,0 @@
-ggml_vulkan: Memory allocation of size 319065600 failed.
-ggml_vulkan: vk::Device::allocateMemory: ErrorOutOfDeviceMemory

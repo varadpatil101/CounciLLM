@@ -1,6 +1,0 @@
-ggml_vulkan: Device memory allocation of size 134217728 failed.
-ggml_vulkan: vk::Device::allocateMemory: ErrorOutOfDeviceMemory
-LMSTUDIO_STARTUP_ERROR:{"schemaVersion":1,"code":"model_load_failed","message":"Failed to initialize the context: failed to allocate buffer for kv cache"}
-ggml_vulkan: Device memory allocation of size 134217728 failed.
-ggml_vulkan: vk::Device::allocateMemory: ErrorOutOfDeviceMemory
-LMSTUDIO_STARTUP_ERROR:{"schemaVersion":1,"code":"model_load_failed","message":"Failed to initialize the context: failed to allocate buffer for kv cache"}
