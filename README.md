@@ -18,6 +18,16 @@
   <img src="https://img.shields.io/badge/Status-Active-F59E0B?style=flat-square" alt="Active">
 </p>
 
+<p align="center">
+  <img src="assets/screenshot/Demo.png" alt="CouncilLLM Demo" width="900">
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/ioWAHbT9LAw?si=SD23MdeIDVo01FzL">
+    ▶️ <strong>Watch CouncilLLM Demo on YouTube</strong>
+  </a>
+</p>
+
 <br>
 
 <img src="assets/01-councillm-concept.png" alt="CounciLLM Concept Overview" width="850">
