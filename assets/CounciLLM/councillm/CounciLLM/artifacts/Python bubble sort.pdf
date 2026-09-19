@@ -1,0 +1,22 @@
+%PDF-1.4
+1 0 obj<< /Type /Catalog /Pages 2 0 R >>endobj
+2 0 obj<< /Type /Pages /Kids [3 0 R] /Count 1 >>endobj
+3 0 obj<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>endobj
+4 0 obj<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>endobj
+5 0 obj<< /Length 2012 >>stream
+BT /F1 11 Tf 50 780 Td 14 TL (Here is a Python script that implements the Bubble Sort algorithm to sort a list of 1 numbers \(i.e., a single number\) between 600 and 700. Since sorting a single element is trivial, the code demonstrates the basic structure of Bubble Sort and includes a placeholder for when you might want to sort a list of numbers in the specified range.) Tj T* (PYTHON) Tj T* (def bubble_sort\(arr\):) Tj T* (    n = len\(arr\)) Tj T* (    # Traverse through all array elements) Tj T* (    for i in range\(n\):) Tj T* (        # Last i elements are already in place) Tj T* (        for j in range\(0, n - i - 1\):) Tj T* (            # Traverse the array from 0 to n-i-1) Tj T* (            # Swap if the element found is greater than the next element) Tj T* (            if arr[j] > arr[j + 1]:) Tj T* (                arr[j], arr[j + 1] = arr[j + 1], arr[j]) Tj T* (    return arr) Tj T* (# Example: Since we only have one number, we'll create a list with that number.) Tj T* (# If you intended to sort a list of numbers between 600 and 700, replace the list with such numbers.) Tj T* (numbers = [650]  # Replace with a list of numbers if needed) Tj T* (sorted_numbers = bubble_sort\(numbers\)) Tj T* (print\("Sorted numbers:", sorted_numbers\)) Tj T* (**Explanation:**) Tj T* (- The `bubble_sort` function takes a list `arr` and sorts it using the Bubble Sort technique.) Tj T* (- The outer loop \(`for i in range\(n\)`\) ensures that the algorithm passes through the list multiple times.) Tj T* (- The inner loop \(`for j in range\(0, n - i - 1\)`\) compares adjacent elements and swaps them if they are in the wrong order.) Tj T* (- Since we only have one number, the list remains unchanged after sorting. If you want to sort multiple numbers between 600 and 700, replace `numbers = [650]` with a list of those numbers, e.g., `[600, 650, 700]`.) Tj T* (Feel free to modify the list to include multiple numbers within the 600-700 range for a meaningful demonstration of sorting. ?) Tj T* ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000000 00000 n 
+0000000009 00000 n 
+0000000056 00000 n 
+0000000111 00000 n 
+0000000235 00000 n 
+0000000303 00000 n 
+trailer<< /Size 6 /Root 1 0 R >>
+startxref
+2365
+%%EOF
