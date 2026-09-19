@@ -17,7 +17,7 @@
 
 <br>
 
-<img src="assets/01-councillm-concept.png" alt="CouncilLLM Concept Overview" width="850">
+<img src="assets/01-councillm-concept.png" alt="CounciLLM Concept Overview" width="850">
 
 <br>
 
@@ -33,13 +33,13 @@
 
 ---
 
-## 🧠 What is CouncilLLM?
+## 🧠 What is CounciLLM?
 
-**CouncilLLM** is an offline, multi-model AI system built around the concept of an **AI council**.
+**CounciLLM** is an offline, multi-model AI system built around the concept of an **AI council**.
 
-Instead of expecting one model to handle every kind of task, CouncilLLM organizes locally available models around **specialized responsibilities**.
+Instead of expecting one model to handle every kind of task, CounciLLM organizes locally available models around **specialized responsibilities**.
 
-A general reasoning model can focus on reasoning, a coding-focused model can handle programming tasks, and a vision model can work with visual information. The CouncilLLM orchestration layer coordinates these components as part of a single local AI environment.
+A general reasoning model can focus on reasoning, a coding-focused model can handle programming tasks, and a vision model can work with visual information. The CounciLLM orchestration layer coordinates these components as part of a single local AI environment.
 
 The project is designed with **local execution, modularity, and user control** at its core.
 
@@ -49,7 +49,7 @@ The project is designed with **local execution, modularity, and user control** a
 
 > **One model doesn't have to do everything.**
 
-CouncilLLM treats its models as members of a council rather than as interchangeable workers.
+CounciLLM treats its models as members of a council rather than as interchangeable workers.
 
 Each member has a defined role:
 
@@ -78,15 +78,15 @@ This role-based approach provides a clear structure for combining different loca
 
 # 🏛️ Architecture
 
-CouncilLLM is organized into several logical layers:
+CounciLLM is organized into several logical layers:
 
 1. **Frontend** — the user-facing interaction layer.
-2. **CouncilLLM Core** — the orchestration and routing layer.
+2. **CounciLLM Core** — the orchestration and routing layer.
 3. **Local Models** — locally available AI models assigned to their respective roles.
 4. **Local Services** — supporting components such as authentication, configuration, and application logic.
 5. **Council Output** — the resulting output returned to the user.
 
-<img src="assets/02-system-architecture.png" alt="CouncilLLM System Architecture" width="900">
+<img src="assets/02-system-architecture.png" alt="CounciLLM System Architecture" width="900">
 
 ---
 
@@ -94,7 +94,7 @@ CouncilLLM is organized into several logical layers:
 
 A typical request follows the general flow below:
 
-<img src="assets/03-request-flow.png" alt="CouncilLLM Request Flow" width="650">
+<img src="assets/03-request-flow.png" alt="CounciLLM Request Flow" width="650">
 
 The orchestrator acts as the bridge between the user's request and the appropriate members of the model council.
 
@@ -102,7 +102,7 @@ The orchestrator acts as the bridge between the user's request and the appropria
 
 # 🤖 The Model Council
 
-CouncilLLM organizes its local models around distinct responsibilities.
+CounciLLM organizes its local models around distinct responsibilities.
 
 | Model | Role | Primary Responsibility |
 |:---|:---:|:---|
@@ -110,7 +110,7 @@ CouncilLLM organizes its local models around distinct responsibilities.
 | 💻 **Granite** | Coding | Programming and coding-oriented tasks |
 | 👁️ **Vision** | Visual | Visual understanding and image-related tasks |
 
-<img src="assets/04-model-council.png" alt="CouncilLLM Model Roles" width="1000">
+<img src="assets/04-model-council.png" alt="CounciLLM Model Roles" width="1000">
 
 ### Why specialization?
 
@@ -122,11 +122,11 @@ Instead, each model can focus on the responsibility assigned to it. This makes t
 
 # 🔒 Offline by Design
 
-CouncilLLM is designed around a **local-first, air-gapped-oriented architecture**.
+CounciLLM is designed around a **local-first, air-gapped-oriented architecture**.
 
 The core idea is to keep the application, orchestration layer, and model execution within the local machine rather than making an external AI service the foundation of the system.
 
-<img src="assets/05-offline-architecture.png" alt="CouncilLLM Offline Architecture" width="900">
+<img src="assets/05-offline-architecture.png" alt="CounciLLM Offline Architecture" width="900">
 
 ### Local-first principles
 
@@ -141,7 +141,7 @@ The core idea is to keep the application, orchestration layer, and model executi
 
 # 👤 Local Authentication
 
-CouncilLLM follows a simple local authentication model designed for an offline environment.
+CounciLLM follows a simple local authentication model designed for an offline environment.
 
 | Component | Purpose |
 |:---|:---|
@@ -158,7 +158,7 @@ Account recovery uses a **generated recovery code** rather than security questio
 
 The overall interaction can be viewed as a pipeline:
 
-<img src="assets/result-flow.png" alt="CouncilLLM Result Flow" width="700">
+<img src="assets/result-flow.png" alt="CounciLLM Result Flow" width="700">
 
 The exact internal processing can evolve as the council orchestration layer develops, while the core principle remains the same: **route work to the appropriate local model and bring the workflow back together into a usable result.**
 
@@ -168,11 +168,11 @@ The exact internal processing can evolve as the council orchestration layer deve
 
 ## Main Interface
 
-<img src="assets/screenshot/main-interface.png" alt="CouncilLLM Main Interface" width="900">
+<img src="assets/screenshot/main-interface.png" alt="CounciLLM Main Interface" width="900">
 
 ## Model Interaction
 
-<img src="assets/screenshot/model-interaction.png" alt="CouncilLLM Model Interaction" width="900">
+<img src="assets/screenshot/model-interaction.png" alt="CounciLLM Model Interaction" width="900">
 
 ---
 
@@ -180,18 +180,18 @@ The exact internal processing can evolve as the council orchestration layer deve
 
 At a high level:
 
-<img src="assets/result-flow.png" alt="CouncilLLM End-to-End Workflow" width="700">
+<img src="assets/result-flow.png" alt="CounciLLM End-to-End Workflow" width="700">
 
-The important part is the separation of responsibilities. CouncilLLM is not simply about running several models. It is about **organizing different local capabilities into one coherent workflow**.
+The important part is the separation of responsibilities. CounciLLM is not simply about running several models. It is about **organizing different local capabilities into one coherent workflow**.
 
 ---
 
 # 🧩 Project Structure
 
-The repository currently includes the documentation and visual assets used to describe CouncilLLM. The implementation structure may continue to evolve during development.
+The repository currently includes the documentation and visual assets used to describe CounciLLM. The implementation structure may continue to evolve during development.
 
 ```text
-CouncilLLM/
+CounciLLM/
 │
 ├── assets/
 │   ├── 01-councillm-concept.png
@@ -213,7 +213,7 @@ CouncilLLM/
 
 # 🛠️ Technology
 
-CouncilLLM is built around a local AI application architecture combining:
+CounciLLM is built around a local AI application architecture combining:
 
 | Layer | Purpose |
 |:---|:---|
@@ -230,7 +230,7 @@ The implementation stack can evolve as the project develops.
 
 # 🚀 Getting Started
 
-CouncilLLM is currently an evolving project.
+CounciLLM is currently an evolving project.
 
 The repository contains the project's architecture, local model workflow, interface, and supporting components. Installation and runtime instructions will be documented here as the project reaches a stable release configuration.
 
@@ -240,7 +240,7 @@ The repository contains the project's architecture, local model workflow, interf
 
 # 🗺️ Roadmap
 
-CouncilLLM is actively evolving.
+CounciLLM is actively evolving.
 
 ### Foundation
 
@@ -290,7 +290,7 @@ Multiple models should have a purpose. The council exists to organize useful cap
 
 # 🤝 Contributing
 
-CouncilLLM is an evolving project, and contributions are welcome.
+CounciLLM is an evolving project, and contributions are welcome.
 
 If you want to contribute:
 
@@ -312,15 +312,15 @@ This project is currently under active development. License information will be 
 
 # 🙏 Acknowledgements
 
-CouncilLLM builds upon the broader ecosystem of open-source AI models and local inference technologies.
+CounciLLM builds upon the broader ecosystem of open-source AI models and local inference technologies.
 
-Individual model licenses and terms remain applicable to the models used with CouncilLLM.
+Individual model licenses and terms remain applicable to the models used with CounciLLM.
 
 ---
 
 <div align="center">
 
-## 🧠 CouncilLLM
+## 🧠 CounciLLM
 
 **Multiple models. Specialized roles. One local intelligence layer.**
 
