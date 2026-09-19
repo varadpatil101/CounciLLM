@@ -203,7 +203,6 @@ The important part is the separation of responsibilities. CounciLLM is not simpl
 
 The repository currently includes the documentation and visual assets used to describe CounciLLM. The implementation structure may continue to evolve during development.
 
-## Project Structure
 
 ```text
 CounciLLM/
