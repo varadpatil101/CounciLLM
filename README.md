@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/logo.gif" width="140" alt="CouncilLLM Logo">
+</p>
 <div align="center">
 
 # CounciLLM
