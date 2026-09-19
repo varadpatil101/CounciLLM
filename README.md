@@ -357,11 +357,27 @@ This project is currently under active development. License information will be 
 
 ---
 
-# 🙏 Acknowledgements
+## 🤝 Connect with the Team
 
-CounciLLM builds upon the broader ecosystem of open-source AI models and local inference technologies.
+We’d love to connect! Feel free to reach out to any of us on LinkedIn:
 
-Individual model licenses and terms remain applicable to the models used with CounciLLM.
+- 👤 **Rohit Biradar**  
+  🔗 https://www.linkedin.com/in/your-profile
+
+- 👤 **Varad Patil**  
+  🔗 https://www.linkedin.com/in/varad-patil-1442a0329
+
+- 👤 **Sharmee Das**  
+  🔗 https://www.linkedin.com/in/sharmee-das-b18627331
+
+- 👤 **Niravuneeraj Patil** 
+  🔗 https://www.linkedin.com/in/niravuneeraj-patil
+
+- 👤 **Aryan Kumawat**  
+  🔗 https://www.linkedin.com/in/aryan-kumawat-220950380
+
+- 👤 **Pratyushmani Rajiv Shahi**  
+  🔗 https://www.linkedin.com/in/pratyush-shahi-127832428
 
 ---
 
